@@ -50,8 +50,6 @@ window.geometry("270x350")
 
 # font style setting
 font_style = font.Font(family="Poppins", size=10)
-title_label = tk.Label(window, text="Code By ARUN TEJA", font=("Helvetica", 16))
-title_label.pack(pady=10)
 
 # Creating the entry field
 entry = tk.Entry(window, width=20, borderwidth=5, font=("Arial", 16), justify=tk.RIGHT)
